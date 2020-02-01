@@ -3,8 +3,19 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  url: 'http://localhost:5000/appgrafica-5022c/us-central1',
+  firebase: {
+    apiKey: 'AIzaSyCN7nGJDALaQZd7wsNGj4XzVE6koSWerqc',
+    authDomain: 'appgrafica-5022c.firebaseapp.com',
+    databaseURL: 'https://appgrafica-5022c.firebaseio.com',
+    projectId: 'appgrafica-5022c',
+    storageBucket: 'appgrafica-5022c.appspot.com',
+    messagingSenderId: '982275772969',
+    appId: '1:982275772969:web:bb3154c992dcaa6ad44238'
+  }
 };
+
 
 /*
  * For easier debugging in development mode, you can import the following file
